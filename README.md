@@ -1,1 +1,97 @@
+## Day 1
+
+
+## Labwork for RISC-V software toolchain 
+
+</details>	
+	
+<details>
+ <summary> Program to Compute Sum from 1 to N </summary>
+We have to write a C program using the commands below:
+
+```bash
+gedit sum1ton.c
+```
+![Screenshot from 2023-08-21 01-18-10](https://github.com/malobimukherjee/RISCV/assets/141206513/774dd6c6-ad37-4a75-a9c1-943b5aba7a5b)
+
+And compile it by:
+
+```bash
+gcc sum1ton.c
+./a.out
+```
+![Screenshot from 2023-08-21 01-21-50](https://github.com/malobimukherjee/RISCV/assets/141206513/9f22e0d6-a3cf-4cde-a06b-289bbb7d83c3)
+
+</details>
+
+
+ <details>
+ <summary> RISCV GCC compile and Disassemble </summary>
+ 
+ I used the following commands to run the code using riscv gcc compiler:
+ 
+ ```bash
+ cat sum1ton.c
+riscv64-unknown-elf-gcc -O1 -mabi=lp64 -march=rv64i -o sum1ton.o sum1ton.c
+```
+![Screenshot from 2023-08-21 01-28-52](https://github.com/malobimukherjee/RISCV/assets/141206513/72ece38d-dde4-4967-806f-7596e3dc1c87)
+
+It will generate a file like sum1ton.o
+
+![Screenshot from 2023-08-21 01-32-31](https://github.com/malobimukherjee/RISCV/assets/141206513/2b58c15d-bc82-4f94-88f7-35f41f87736b)
+
+To view the assembly code, I used the command:
+
+```bash
+riscv64-unknown-elf-objdump -d sum1ton.o
+```
+
+![Screenshot from 2023-08-21 01-38-02](https://github.com/malobimukherjee/RISCV/assets/141206513/81185092-8777-4fcd-be65-4fe0b54e2a45)
+
+![Screenshot from 2023-08-21 01-41-08](https://github.com/malobimukherjee/RISCV/assets/141206513/1d49dfb0-2df4-44b8-8463-83f1ec17451e)
+
+To view the main section, I typed:
+
+```bash
+/main
+```
+![Screenshot from 2023-08-21 01-43-39](https://github.com/malobimukherjee/RISCV/assets/141206513/2b9002a3-0378-47e4-b50e-1ed4bfa1608e)
+
+Tried running the same command using -Ofast:
+
+```bash
+riscv64-unknown-elf-gcc -Ofast -mabi=lp64 -march=rv64i -o sum1ton.o sum1ton.c
+riscv64-unknown-elf-objdump -d sum1ton.o | less
+```
+![Screenshot from 2023-08-21 01-54-15](https://github.com/malobimukherjee/RISCV/assets/141206513/0565cdbd-6d12-432e-8d5f-e4e46891835f)
+
+</details>
+
+
+ <details>
+ <summary> Spike Simulation And Debug </summary>
+
+I used the command below to execute with the help of riscv compiler:
+
+```bash
+spike pk sum1ton.o
+```
+![Screenshot from 2023-08-21 02-02-01](https://github.com/malobimukherjee/RISCV/assets/141206513/113a3db6-d880-4d3d-bef3-4fc1287ab10b)
+
+```bash
+spike -d pk sum1ton.o
+```
+![Screenshot from 2023-08-21 02-18-11](https://github.com/malobimukherjee/RISCV/assets/141206513/98e60b94-2e0a-482c-81b0-a0b6fbab2554)
+
+![Screenshot from 2023-08-21 02-21-33](https://github.com/malobimukherjee/RISCV/assets/141206513/aa91dabf-4a50-4cf7-ba7c-05a1031bd1c0)
+
+</details>
+
+## Integer Number Representation
+
+<details>
+
+<summary>64-bit Number System for Unsigned Numbers</summary>
+</details>
+
 
