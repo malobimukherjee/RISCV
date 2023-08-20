@@ -91,7 +91,34 @@ spike -d pk sum1ton.o
 
 <details>
 
-<summary>64-bit Number System for Unsigned Numbers</summary>
+<summary>Lab for Signed and Unsigned Numbers</summary>
+
+I wrote a code for unsigned number:
+
+
+![Screenshot from 2023-08-21 03-06-35](https://github.com/malobimukherjee/RISCV/assets/141206513/e4eaf0c4-ad70-4697-b82c-19729635f773)
+
+And then executed the code using the command below:
+
+```bash
+riscv64-unknown-elf-gcc -Ofast -mabi=lp64 -march=rv64i -o signedunsigned.o signedunsigned.c
+spike pk signedunsigned.o
+```
+
+![Screenshot from 2023-08-21 03-08-45](https://github.com/malobimukherjee/RISCV/assets/141206513/4cf65509-c6c7-4cdc-ad25-efa7730c24db)
+
+To check whether it shows signed number:
+
+![Screenshot from 2023-08-21 03-17-53](https://github.com/malobimukherjee/RISCV/assets/141206513/e1aa7f0e-bda6-41f9-b029-003569b0cac0)
+
+![Screenshot from 2023-08-21 03-19-36](https://github.com/malobimukherjee/RISCV/assets/141206513/21357e0d-4c45-4c8c-9aa1-2e7e39484313)
+
+Modified the code for signed number:
+
+![Screenshot from 2023-08-21 03-23-00](https://github.com/malobimukherjee/RISCV/assets/141206513/9862c085-4283-4fa3-b07b-d2081b2bcd75)
+
+
+![Screenshot from 2023-08-21 03-23-34](https://github.com/malobimukherjee/RISCV/assets/141206513/d69da97e-877b-4303-b70f-afb4b4d29164)
+
+
 </details>
-
-
