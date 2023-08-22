@@ -122,3 +122,68 @@ Modified the code for signed number:
 
 
 </details>
+
+## Day 2
+
+
+## Introduction to ABI and Basic Verification Flow
+
+<details>	
+
+<summary> Simulate C program with ASM Function call </summary>
+
+We have to write a C program using main function and use extern to call the ASM function:
+
+```bash
+gedit 1to9_custom.c
+```
+
+![Screenshot from 2023-08-22 23-11-04](https://github.com/malobimukherjee/RISCV/assets/141206513/4b90492b-7c2e-4446-bb6b-c6f5b36c7547)
+
+Assembly language code:
+
+```bash
+gedit Load.S
+```
+
+![Screenshot from 2023-08-22 23-10-34](https://github.com/malobimukherjee/RISCV/assets/141206513/6282de5d-d28f-441e-a66e-43b1edc99993)
+
+
+I used the riscv64 compiler and the spike simulator to see the ASM code:
+
+
+```bash
+riscv64-unknown-elf-gcc -Ofast -mabi=lp64 -march=rv64i -o 1to9_custom.o 1to9_custom.c load.S
+spike pk 1to9_custom.o
+riscv64-unknown-elf-objdump -d 1to9_custom.o | less
+```
+
+![Screenshot from 2023-08-22 23-34-19](https://github.com/malobimukherjee/RISCV/assets/141206513/06c3bb17-7081-404e-ae55-57ae39298292)
+
+
+![Screenshot from 2023-08-22 23-36-48](https://github.com/malobimukherjee/RISCV/assets/141206513/f09a9dfd-c6c8-4bd8-8b6f-2d63747141bb)
+
+
+![Screenshot from 2023-08-22 23-38-55](https://github.com/malobimukherjee/RISCV/assets/141206513/57f86347-f4c2-409f-8b1c-cabdaae6d0b0)
+
+</details>
+
+
+<details>
+	
+<summary> Lab to run C program on RISCV CPU </summary>
+
+
+I used the below commands:
+
+```bash
+cd riscv_workshop_collaterals
+cd labs
+ls -ltr
+gedit 1to9_custom.c
+chmod 777 rv32im.sh
+ ./rv32im.sh
+```
+![Screenshot from 2023-08-22 23-54-51](https://github.com/malobimukherjee/RISCV/assets/141206513/e36ae58a-4ff7-416a-920d-aac4b7b82560)
+
+</details>
