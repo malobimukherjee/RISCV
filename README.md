@@ -187,3 +187,37 @@ chmod 777 rv32im.sh
 ![Screenshot from 2023-08-22 23-54-51](https://github.com/malobimukherjee/RISCV/assets/141206513/e36ae58a-4ff7-416a-920d-aac4b7b82560)
 
 </details>
+
+## Day 3
+
+
+## Digital Logic with TL-Verilog and Makerchip
+
+<details>
+
+<summary> Basic MUX implementation and Introduction to Makerchip </summary>
+
+Website Link: https://www.makerchip.com/sandbox/#
+
+I chose from the example code- FPGA Multiplier Code:
+
+![Screenshot from 2023-08-23 04-26-40](https://github.com/malobimukherjee/RISCV/assets/141206513/6c6b6ecd-c90b-4053-851d-ded63d0c5ce3)
+
+
+</details>
+<details>
+
+
+<summary>Lab for Combinational Logic</summary>
+
+![Screenshot from 2023-08-23 04-48-20](https://github.com/malobimukherjee/RISCV/assets/141206513/ee18bcc7-1347-4641-83f5-c2124185abaa)
+
+![Screenshot from 2023-08-23 04-50-06](https://github.com/malobimukherjee/RISCV/assets/141206513/e3c02ce4-a089-40ad-a7bf-2fa2ad390af6)
+
+Combinational Calculator:
+
+![Screenshot from 2023-08-23 05-16-04](https://github.com/malobimukherjee/RISCV/assets/141206513/6be7cc17-daae-4b87-b871-ab198b40c0b8)
+
+
+
+</details>
