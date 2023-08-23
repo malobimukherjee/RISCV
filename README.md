@@ -221,3 +221,10 @@ Combinational Calculator:
 
 
 </details>
+<details>
+
+<summary> Sequential Logic - Fibonacci Series </summary>
+
+![Screenshot from 2023-08-23 05-31-06](https://github.com/malobimukherjee/RISCV/assets/141206513/12fc6055-a6cd-489f-b25c-9f33f4525f32)
+
+</details>
