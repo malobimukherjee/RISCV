@@ -231,6 +231,12 @@ Combinational Calculator:
 <details>
 <summary> Pipelined Logic </summary>
 
+
 ![Pythagorean_example_validity_check2](https://github.com/malobimukherjee/RISCV/assets/141206513/fa30c7cf-ad17-48e1-a82b-6ebcd26a4673)
+
+## Lab on 2-Cycle calculator
+
+
+![Screenshot from 2023-08-23 06-14-18](https://github.com/malobimukherjee/RISCV/assets/141206513/b8ccb1bc-2ed9-429a-a904-9f22a9e18381)
 
 </details>
