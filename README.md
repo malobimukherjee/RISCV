@@ -276,3 +276,73 @@ Combinational Calculator:
 
  
 </details>
+
+## Day 4
+
+<details>
+
+<summary> Lab: Next PC </summary>
+ 
+![Screenshot from 2023-08-23 11-29-11](https://github.com/malobimukherjee/RISCV/assets/141206513/30f3982a-9999-4069-8020-ba5d5faa2ce1)
+
+ 
+</details>
+
+<details>
+
+<summary> Instruction Fetch Logic </summary>
+
+![Screenshot from 2023-08-23 11-38-14](https://github.com/malobimukherjee/RISCV/assets/141206513/c9119092-dd1d-49d5-9abf-16e3dcfb16e7)
+
+</details>
+
+<details>
+
+<summary> Instruction Decode </summary>
+
+![Screenshot from 2023-08-23 11-34-20](https://github.com/malobimukherjee/RISCV/assets/141206513/3ed167b2-7ea1-4171-b33d-74b429cee890)
+
+ 
+</details>
+
+<details>
+
+ <summary> Register File Read </summary>
+ 
+![Screenshot from 2023-08-23 11-42-07](https://github.com/malobimukherjee/RISCV/assets/141206513/d755cd04-aa81-4dd0-80d7-8e4e178ad2d6)
+
+ 
+</details>
+
+<details>
+
+ <summary> ALU </summary>
+
+ ![Screenshot from 2023-08-23 11-46-19](https://github.com/malobimukherjee/RISCV/assets/141206513/9cf9cbc0-7009-4558-8b68-ff5595097ab5)
+
+
+</details>
+
+<details>
+
+ <summary> Register File Write </summary>
+
+![Screenshot from 2023-08-23 11-49-06](https://github.com/malobimukherjee/RISCV/assets/141206513/de6168ae-35c8-41c0-89fd-e11bf3d8fb2b)
+
+</details>
+<details>
+
+ <summary>Branch Instruction</summary>
+
+ ![Screenshot from 2023-08-23 11-52-29](https://github.com/malobimukherjee/RISCV/assets/141206513/60ac1095-9deb-44ea-a30d-ab53f3144a17)
+
+</details>
+
+<details>
+
+ <summary> Final Output: RISCV Core </summary>
+
+![Screenshot from 2023-08-23 11-56-14](https://github.com/malobimukherjee/RISCV/assets/141206513/ab7436dc-668c-4a88-bde3-b98201f68370)
+
+ 
+</details>
