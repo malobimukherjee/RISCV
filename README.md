@@ -240,3 +240,39 @@ Combinational Calculator:
 ![Screenshot from 2023-08-23 06-14-18](https://github.com/malobimukherjee/RISCV/assets/141206513/b8ccb1bc-2ed9-429a-a904-9f22a9e18381)
 
 </details>
+
+## Validity
+
+<details>
+<summary> Lab to Compute Total Distance </summary>
+
+![Screenshot from 2023-08-23 11-00-24](https://github.com/malobimukherjee/RISCV/assets/141206513/44eae83f-d441-44fb-a8c1-fed633d22337)
+ 
+</details>
+
+<details>
+
+<summary> Lab on 2-Cycle Calculator with Validity </summary>
+
+![Screenshot from 2023-08-23 11-10-01](https://github.com/malobimukherjee/RISCV/assets/141206513/6de73103-95cc-4ca3-a438-661d2d83cb09)
+
+
+</details>
+<details>
+
+<summary> Calculator with Single-Value Memory </summary>
+
+![Screenshot from 2023-08-23 11-10-01](https://github.com/malobimukherjee/RISCV/assets/141206513/07001d95-4554-446a-89fd-25136a7aa5f7)
+
+</details>
+
+## Hierarchy
+
+<details>
+
+ <summary> Pythagorean Theorem using Behavioural Hierarchy</summary>
+ 
+![Screenshot from 2023-08-23 11-19-20](https://github.com/malobimukherjee/RISCV/assets/141206513/12468bf9-af6e-439c-9786-d73b14043327)
+
+ 
+</details>
